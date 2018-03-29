@@ -1,18 +1,12 @@
-
 # Subway Clock Project
-## Making a NYC subway themed Clock with a led pixel display and a raspberry pi
-
-Our first Raspberry Pi project
-
-
-Project Subway Sandwich Display
+For our first Raspberry Pi project we decided to making a NYC subway themed clock with a led pixel display and a raspberry pi
 
 ### Project goals
 
 Main goal:
 - To create a clock display, which tells (i) the time and (ii) the stops for Line 6 in New York city.
 
-- Phase I Goal:
+Phase I Goal:
 - Clock to display time + names of subway stops for Line 6 at fixed intervals
 - Phase II Goal:
 - Clock to display time + live updates from of subway e.g. 10:10, arriving at Longwood Av.
@@ -74,5 +68,3 @@ We are use the python bindings of hzeller [rpi-rgb-led-matrix project](https://g
 - [http://web.mta.info/nyct/service/sixline.htm](http://web.mta.info/nyct/service/sixline.htm)
 
 ### Clock Images
-
-
