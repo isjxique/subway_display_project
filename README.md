@@ -19,7 +19,7 @@ Stretch goals:
 ### Materials
 - Adafruit 16 x 32 RGB LED Matrix Panel Display
 - Raspberry Pi Zero (with WiFi)
-- See more Materials: [https://learn.adafruit.com/connecting-a-16x32-rgb-led-matrix-panel-to-a-raspberry-pi/you-will-need](https://learn.adafruit.com/connecting-a-16x32-rgb-led-matrix-panel-to-a-raspberry-pi/you-will-need)
+- See more materials: [https://learn.adafruit.com/connecting-a-16x32-rgb-led-matrix-panel-to-a-raspberry-pi/you-will-need](https://learn.adafruit.com/connecting-a-16x32-rgb-led-matrix-panel-to-a-raspberry-pi/you-will-need)
 
 ### RGB LED Matrix Code Repository
 
@@ -57,6 +57,5 @@ We are use the python bindings of hzeller [rpi-rgb-led-matrix project](https://g
 - [https://www.youtube.com/watch?v=Yeq8_xPArGM](https://www.youtube.com/watch?v=Yeq8_xPArGM)
 - [https://www.youtube.com/watch?v=PbggS2rV9W4](https://www.youtube.com/watch?v=PbggS2rV9W4) (6) train
 - [http://web.mta.info/nyct/service/sixline.htm](http://web.mta.info/nyct/service/sixline.htm)
-- [http://web.mta.info/nyct/service/sixline.htm](http://web.mta.info/nyct/service/sixline.htm)
-
+- [https://github.com/MLB-LED-Scoreboard/mlb-led-scoreboard](https://github.com/MLB-LED-Scoreboard/mlb-led-scoreboard)
 ### Clock Images
