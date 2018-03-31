@@ -37,11 +37,14 @@ so we followed this [gist](https://gist.github.com/gbaman/975e2db164b3ca2b51ae11
 7. Setup wifi on Pi by following: https://medium.com/a-swift-misadventure/setup-your-raspberry-pi-2-3-with-raspbian-headless-without-cables-c78309fd7045
 8. Transfer files from Mac/PC to Raspberry Pi:
     - [http://thomasloughlin.com/how-to-transfer-files-from-a-mac-or-pc-onto-a-raspberry-pi/](http://thomasloughlin.com/how-to-transfer-files-from-a-mac-or-pc-onto-a-raspberry-pi/)
-    - Example: scp test.jpg  pi@raspberrypi.local:~ (test.jpg is in home directory e.g. Ismael)
+    - Example: `scp test.jpg  pi@raspberrypi.local:~` (test.jpg is in home directory e.g. Ismael)
 9. Set the clock on the Raspberry Pi
 
 ## Wire Up Raspberry Pi and Adafruit 16 x 32 RGB LED Matrix Panel Display
 We would recommend following hzeller [guide](https://github.com/hzeller/rpi-rgb-led-matrix/)
+
+##  Run Script:
+`sudo python main.py`
 
 ##  Additional steps:
 1. Create photoshop images (in pmp format) of all train stop names
