@@ -36,7 +36,7 @@ while True:
     my_text = datetime.now().strftime("%I:%M:%S %p")
 
     # if time falls on the hour show subway stop image
-    if my_text[3:5] == '00:00' or my_text[3:5] == '30:00':
+    if my_text[3:8] == '00:00' or my_text[3:8] == '30:00':
 
         image = Image.open(stopsDir + onlyfiles[curTrainStopInt]).convert('RGB')
         image.resize((matrix.width, matrix.height), Image.ANTIALIAS)
@@ -62,7 +62,7 @@ while True:
     else:  # if we don't fall on the hour then show time
         canvas.Clear()
         my_text = my_text[0:5] # trim seconds
-        lenTime = graphics.DrawText(canvas, font, pos, 14, textColor, my_text)
+        lenTime = graphics.DrawText(canvas, font, pos, 12, textColor, my_text)
         pos -= 1
         if pos + lenTime < 0:
             pos = canvas.width
