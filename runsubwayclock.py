@@ -2,8 +2,8 @@ import time
 from datetime import datetime
 from PIL import Image
 from os import listdir, getcwd
-from os.path import isfile, join, dirname
-from rgbmatrix import RGBMatrix, RGBMatrixOptions, graphics
+from os.path import isfile, join
+from rgbmatrix import RGBMatrix, graphics
 from utils import args, led_matrix_options
 
 
@@ -33,10 +33,10 @@ curTrainStopInt = 0
 while True:
 
     # get time
-    my_text = datetime.now().strftime("%I:%M %p")
+    my_text = datetime.now().strftime("%I:%M:%S %p")
 
     # if time falls on the hour show subway stop image
-    if my_text[3:5] == '00' or my_text[3:5] == '30':
+    if my_text[3:5] == '00:00' or my_text[3:5] == '30:00':
 
         image = Image.open(stopsDir + onlyfiles[curTrainStopInt]).convert('RGB')
         image.resize((matrix.width, matrix.height), Image.ANTIALIAS)
@@ -61,7 +61,8 @@ while True:
 
     else:  # if we don't fall on the hour then show time
         canvas.Clear()
-        lenTime = graphics.DrawText(canvas, font, pos, 10, textColor, my_text)
+        my_text = my_text[0:5] # trim seconds
+        lenTime = graphics.DrawText(canvas, font, pos, 14, textColor, my_text)
         pos -= 1
         if pos + lenTime < 0:
             pos = canvas.width
