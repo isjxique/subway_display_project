@@ -1,5 +1,5 @@
 # Subway Clock Project
-For our first Raspberry Pi project we decided to making a NYC subway themed clock with a led pixel display and a Raspberry Pi.
+For our first Raspberry Pi project we decided to make a NYC subway themed clock with a led pixel display and a Raspberry Pi.
 
 ## Project goals
 Main goal:
