@@ -15,6 +15,7 @@ Stretch goals:
 - Create frame for clock
 
 ## Clock Images
+![soldering-pi](img/pi_soldering.jpg) ![soldered-pi](img/pi_complete.jpg) 
 
 ## Materials
 - Adafruit 16 x 32 RGB LED Matrix Panel Display
