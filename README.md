@@ -16,10 +16,13 @@ Stretch goals:
 
 ## Clock Images
 Soldering the Pi zero\
-![soldering-pi](img/pi_soldering.jpg)\
+![soldering-pi](img/pi_soldering.jpg)
 
 Completely soldered Pi zero\
-![soldered-pi](img/pi_complete.jpg)\
+![soldered-pi](img/pi_complete.jpg)
+
+Pi Zero and LED Array\
+![pi-and-led](img/pi_and_led.jpg)
 
 ## Materials
 - Adafruit 16 x 32 RGB LED Matrix Panel Display
