@@ -24,6 +24,12 @@ Completely soldered Pi zero\
 Pi Zero and LED Array\
 ![pi-and-led](img/pi_and_led.jpg)
 
+Pi cycling through a stop\
+![pi-and-led](img/clock_stop.gif)
+
+Pi cycling through time\
+![pi-and-led](img/clock_time.gif)
+
 ## Materials
 - Adafruit 16 x 32 RGB LED Matrix Panel Display
 - Raspberry Pi Zero (with WiFi)
